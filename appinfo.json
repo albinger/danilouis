@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "andrew.albinger@gmail.com",
+    "longName": "danilouis",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "danilouis",
+    "uuid": "304fc1bf-93b1-434f-90b0-84c0359c6588",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
