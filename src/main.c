@@ -103,15 +103,14 @@ void handle_init(void) {
 	// Create a window and text layer
 	window = window_create();
 	text_layer = text_layer_create(GRect(XXX, YYY, 25, 30));
-  //text_layer = text_layer_create(GRect(119, 138, 25, 30));
+ 
 	
 	// Set the text, font, and text alignment
 	snprintf(s_minute,3,"0");
   text_layer_set_text(text_layer, s_minute);
 	text_layer_set_font(text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
 	text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);
-  //text_layer_set_background_color(text_layer, GColorBlack);
-  //text_layer_set_text_color(text_layer, GColorWhite);
+  
 	
 	// Add the text layer to the window
 	layer_add_child(window_get_root_layer(window), text_layer_get_layer(text_layer));
